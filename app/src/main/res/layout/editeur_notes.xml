@@ -15,8 +15,17 @@
         app:title="Editeur de note"
         app:titleTextColor="@color/white" />
 
+    <TextView
+        android:id="@+id/titre_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="La note"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
     <EditText
-        android:id="@+id/EditText_note"
+        android:id="@+id/details_note"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
