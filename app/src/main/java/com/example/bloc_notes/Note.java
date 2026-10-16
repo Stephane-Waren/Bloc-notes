@@ -13,7 +13,7 @@ public class Note {
         this.date = date;
     }
 
-    public String getNom(){
+    public String getNom() {
         return nom;
     }
 
@@ -31,5 +31,10 @@ public class Note {
 
     public void setDate(LocalDateTime date) {
         this.date = date;
+    }
+
+    public LocalDateTime getDateModification() {
+
+        return null;
     }
 }
