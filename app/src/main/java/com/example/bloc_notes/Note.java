@@ -33,8 +33,4 @@ public class Note {
         this.date = date;
     }
 
-    public LocalDateTime getDateModification() {
-
-        return null;
-    }
 }
